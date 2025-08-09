@@ -7,7 +7,7 @@ variable "resource_group_name" {
 variable "location" {
   type        = string
   description = "Azure region to deploy resources in"
-  default     = "eastus"
+  default     = "centralus"
 }
 
 variable "vnet_name" {

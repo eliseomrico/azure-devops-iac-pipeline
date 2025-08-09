@@ -23,9 +23,8 @@ resource "azurerm_service_plan" "app_plan" {
   resource_group_name = azurerm_resource_group.rg.name
 
   # Change to "Linux" when using Docker
-  os_type = "Windows"
+  os_type = "Linux"
 
   # Change to "B1" when using Docker
-  sku_name = "F1"
-
+  sku_name = "B1"
 }
